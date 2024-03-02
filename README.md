@@ -102,9 +102,10 @@ Insere um novo filme.
 |descricao|string|✅|a descrição do filme
 |foto|string|✅|a foto da capa do filme
 |genero|string|✅|os generos do filme
+|ano|int|✅|o ano de lançamento do filme
 |duracao|string|✅|as horas e minutos de duração do filme
 |elenco|string|✅|apenas os atores principais
-|nota|string|✅|nota geral que o filme tem de avaliação
+|nota|int|✅|nota geral que o filme tem de avaliação
 
 
 ```js
@@ -175,9 +176,10 @@ Atualizar os dados das informações do `id` do filme informado.
 |descricao|string|✅|a descrição do filme
 |foto|string|✅|a foto da capa do filme
 |genero|string|✅|os generos do filme
+|ano|int|✅|o ano de lançamento do filme
 |duracao|string|✅|as horas e minutos de duração do filme
 |elenco|string|✅|apenas os atores principais
-|nota|string|✅|nota geral que o filme tem de avaliação
+|nota|int|✅|nota geral que o filme tem de avaliação
 
 
 ```js
