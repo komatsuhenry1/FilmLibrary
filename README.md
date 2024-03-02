@@ -1,6 +1,16 @@
 # FilmLibrary
 É uma api onde Voce poderá gerenciar os filmes que já assistiu e os que quer assistir futuramente
 
+* o projeto vai consumir uma api de filme
+
+* ser possivel o filme na conta do usuario e ele vai marcar como assistido ou pendente e dar um comentario se quiser e clicar na estrelinhas pra avaliar o filme as outras informações do filme já serão puxadas da api que iremos consumir
+
+* se ele clicar no maximo de estrela esse filme vai ficar listado nos favoritos dele
+
+* se ele excluir um filme o filme continua em todos porem n estara mais vinculado com a conta dele e se quiser d volta vai ter que add dnv
+
+* os filmes q ele ainda não adicionou em sua conta são os filmes da api externa e os filmes recomendados são os filmes com melhor avaliação geral da api externa!
+
 
 
 ## Endpoints
