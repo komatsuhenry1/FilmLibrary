@@ -26,6 +26,10 @@ import com.example.FilmLibrary.repository.FilmeRepository;
 import lombok.extern.slf4j.Slf4j;
 
 
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+
+
 
 
 @Slf4j
@@ -92,5 +96,10 @@ public class FilmeController {
     }
 
     
+
+    @GetMapping("filmAtors")
+public Page<Filme> index(Pageable pageable){
+    return repository.findAll(pageable);
+}
     
 }

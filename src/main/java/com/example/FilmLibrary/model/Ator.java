@@ -15,34 +15,17 @@ import jakarta.validation.constraints.Positive;
 import jakarta.validation.constraints.Size;
 import lombok.Data;
 
-
-
 @Data
 @Entity
-public class Filme{
+public class Ator {
     @Id @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     
     @NotBlank 
     private String nome;
-    private String descricao; 
-    private String foto; 
-    private String genero; 
-    private int ano;
-    private String duracao; 
     
-    private String elenco;
-    @Positive
-    private int nota;
-
-
-
-    @ManyToMany
-    @JoinTable(
-        name = "filme_ator",
-        joinColumns = @JoinColumn(name = "filme_id"),
-        inverseJoinColumns = @JoinColumn(name = "ator_id")
-    )
-    private List<Ator> atores = new ArrayList<>();
+    // Outros campos relevantes para o ator
+    
+    @ManyToMany(mappedBy = "atores")
+    private List<Filme> filmes = new ArrayList<>();
 }
-
