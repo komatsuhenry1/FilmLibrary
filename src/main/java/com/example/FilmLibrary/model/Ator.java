@@ -29,3 +29,6 @@ public class Ator {
     @ManyToMany(mappedBy = "atores")
     private List<Filme> filmes = new ArrayList<>();
 }
+
+
+// http://localhost:8080/filme/filmAtors?page=1&size=1
