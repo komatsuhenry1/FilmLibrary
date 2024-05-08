@@ -26,8 +26,8 @@ public class Ator {
     
     // Outros campos relevantes para o ator
     
-    @ManyToMany(mappedBy = "atores")
-    private List<Filme> filmes = new ArrayList<>();
+    // @ManyToMany(mappedBy = "atores")
+    // private List<Filme> filmes = new ArrayList<>();
 }
 
 
