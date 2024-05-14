@@ -11,7 +11,7 @@
 
 * os filmes q ele ainda não adicionou em sua conta são os filmes da api externa e os filmes recomendados são os filmes com melhor avaliação geral da api externa!
 
-
+**rode a aplicação e veja todos endpoints atualizado pelo swagger: http://localhost:8080/swagger-ui/index.html**
 
 ## Endpoints
 
